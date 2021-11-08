@@ -7,6 +7,8 @@
 # otherwise the search continues till the end of the data collection.
 
 
+## pseudo code:
+
 # procedure linear_search (list, value)
 
 #    for each item in the list
