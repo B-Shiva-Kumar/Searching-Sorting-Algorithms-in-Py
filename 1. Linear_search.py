@@ -17,21 +17,25 @@
 
 # end procedure
 # %%
+# python code
 
-numbers = [12, 43, 55, 21, 42, 88, 10, 67]
+def linear_search(array: list):
 
-usr_num = int(input('Enter number to find : '))
-flag = False
+    usr_num = int(input('Enter number to find : '))
+    flag = False
 
-for indx in range(len(numbers)):
-    # if found
-    if usr_num == numbers[indx]:
-        print(f'Number fount at index number {indx}')
-        flag = True
-        break
+    for indx in range(len(numbers)):
+        # if found
+        if usr_num == numbers[indx]:
+            print(f'Number fount at index number {indx}')
+            flag = True
+            break
 
-# if not found
-if flag != True:
-    print('Number not found')
+    # if not found
+    if flag != True:
+        print('Number not found')
 
 #%%
+
+numbers = [12, 43, 55, 21, 42, 88, 10, 67]
+linear_search(numbers)
