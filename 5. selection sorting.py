@@ -68,5 +68,6 @@ def selection_sorting(array : list):
     return print(array)
 #%%
 
+## unsorted array
 arr1 = [64, 25, 12, 22, 11, 98]
 selection_sorting(arr1)
