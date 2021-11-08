@@ -55,14 +55,20 @@ def bubble_sort(array : list):
             if array[j] > array[j+1]:
 
                 # temp var
-                temp = array[j + 1]
-                array[j+1] = array[j]
-                array[j] = temp
+                # temp = array[j + 1]
+                # array[j+1] = array[j]
+                # array[j] = temp
+
+                # or 
+
+                # easy swapping
+                array[j], array[j + 1] = array[j + 1], array[j]
 
     return print(array)
 
+#%%
 
-
+### unsorted array 
 
 arr  = [12, 43, 11, 2, 56, 77, 34, 89, 67, 80]
 bubble_sort(arr)
