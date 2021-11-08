@@ -68,7 +68,7 @@ def bubble_sort(array : list):
 
 #%%
 
-### unsorted array 
+### unsorted arrays
 
 arr  = [12, 43, 11, 2, 56, 77, 34, 89, 67, 80]
 bubble_sort(arr)
