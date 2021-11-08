@@ -1,0 +1,21 @@
+Data Structure used in different language :
+
+* List is commonly used as Data Structures to store various data wrt data types.
+* There are two types of List data structure.
+	1. Static Array.
+	2. Dynamic Array.
+
+1. Python :
+	
+	* In python, by default List is Dynamic array.
+	* There is no static array in Python.
+
+2. Java :
+	
+	* Static Array is Native Array.
+	* Dynamic array is ArrayList.
+
+3. C++ :
+
+	* Static array is Native array.
+	* Dynamic array is std::vector.
