@@ -59,12 +59,9 @@ def selection_sorting(array : list):
                 ## high value > low value
                 ## array[j] > array[i] gives decesending order of an array
 
-
                 ## swapping
                 array[min_indx], array[j] = array[j], array[min_indx]
                 
-
-
     return print(array)
 #%%
 
