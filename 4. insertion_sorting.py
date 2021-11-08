@@ -58,6 +58,8 @@ def insert_sort(array):
     return print(array)
 #%%
 
+# unsorted arrays
+
 arr1 = [32, 31, 56, 12, 78, 31, 24, 66, 54]
 insert_sort(arr1)
 

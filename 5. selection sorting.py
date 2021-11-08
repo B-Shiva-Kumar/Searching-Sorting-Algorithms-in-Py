@@ -71,3 +71,6 @@ def selection_sorting(array : list):
 ## unsorted array
 arr1 = [64, 25, 12, 22, 11, 98]
 selection_sorting(arr1)
+
+arr2 = [912, 432, 42, 12, 542, 11, 54, 553]
+selection_sorting(arr2)
