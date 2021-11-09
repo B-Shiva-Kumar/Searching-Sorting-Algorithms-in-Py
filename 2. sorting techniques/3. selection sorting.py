@@ -3,13 +3,25 @@
 ## Seletion sorting algorithm :
 
 # Selection sort is a simple sorting algorithm. This sorting algorithm is an in-place comparison-based algorithm in which the list is divided into two parts, 
-# 1. the sorted part at the left end and 
-# 2.the unsorted part at the right end. 
-# Initially, the sorted part is empty and the unsorted part is the entire list.
+# 1. The Selection sort algorithm divides the given list into two halves 
+# where the first half will be the sorted list and the second is an unsorted list. 
+# At first, the sorted list is empty and all elements to be sorted are present in the unsorted list.
 
-# The smallest element is selected from the unsorted array and swapped with the leftmost element, 
-# and that element becomes a part of the sorted array.
-#  This process continues moving unsorted array boundary by one element to the right.
+# 2. The Selection sort algorithm will look at all the elements present in the unsorted list, 
+# pick up the item that is supposed to come first, and then places it in the sorted list.
+# It then repeats the searching process and 
+# places the next element to the right of the first element in the sorted list.
+
+### Steps :
+
+        # 1. Make the first element as the minimum and compare it with the next element. 
+        # If the next element is less than the selected element, mark that as the minimum and 
+        # compare it with the next element. Repeat the same process until you compare all the elements of the unsorted list.
+
+        # 2. Place the minimum in the sorted array (This becomes the first element of the sorted array).
+
+        # 3. Increment the position of the counter to point at the first element of the unsorted array and 
+        # repeat steps 1 and 2 for all the elements of the unsorted array.
 
 # This algorithm is not suitable for large data sets.
 
@@ -55,12 +67,16 @@ def selection_sorting(array : list):
 
             # arr[1] < arr[0]...
             # checking min number
-            if array[min_indx] > array[j]:
+            if array[j] < array[min_indx]:
                 ## high value > low value
                 ## array[j] > array[i] gives decesending order of an array
 
-                ## swapping
-                array[min_indx], array[j] = array[j], array[min_indx]
+                # set minimum index to j
+                min_indx = j
+                
+
+            ## swapping
+        array[min_indx], array[i] = array[i], array[min_indx]
                 
     return print(array)
 #%%

@@ -49,11 +49,12 @@ def insert_sort(array):
         j = step - 1
 
         ## we can change `arr[j] > key to arr[j] < key to get in desending order`.
-        while j >= 0 and array[j] > key:
+        while j >= 0 and array[j] > key: # ---> comparing the next unsorted list until last
 
             array[j + 1] = array[j]
-            array[j] = key
             j -= 1
+
+        array[j + 1] = key
 
     return print(array)
 #%%

@@ -49,7 +49,7 @@ def bubble_sort(array : list):
         
         ## iterating col for each value 
         ## - i is used for excluding the sorted element
-        for j in range(len(array) - i - 1):
+        for j in range(len(array) - 1 - i):
 
             # comparing adjacent values
             if array[j] > array[j+1]:

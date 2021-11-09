@@ -6,6 +6,12 @@
 
 ##  `https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm`
 
+### NOTE: 1. binary search is useful when array is in millions or billion 
+          # which leads to worst case scenario while using Linear Search.
+
+        # 2. Number of iterations required (k)
+        # k = O(logn) 
+
 ## formula :1.  mid = first + last //2
         # or
  #         2. mid = first + (last - first) // 2
