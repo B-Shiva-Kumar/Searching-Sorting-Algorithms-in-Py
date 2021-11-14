@@ -114,3 +114,7 @@ a = [12, 3, 50, 11, 43, 15, 98, 6, 13]
 # print(merge_sort(a))
 merge_sort(a)
 print(a)
+#%%
+
+# -----> time complexity = O(nlogn).
+# -----> Divide & Conquer rule.
