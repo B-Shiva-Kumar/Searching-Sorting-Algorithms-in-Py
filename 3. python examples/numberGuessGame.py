@@ -10,7 +10,7 @@ def guessGame():
         try:
 
             # while True:
-            userNumber = int(input("Enter your Guess (00 to STOP) : "))
+            userNumber = int(input("Enter your Guess (00 to QUIT) : "))
 
             if (userNumber == sysNumber):
                 print("Yay; your right")
