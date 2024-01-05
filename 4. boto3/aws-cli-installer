@@ -1,0 +1,10 @@
+# install awscli in windows
+# refer official docs for other os including windows OS
+
+---
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
+aws --version
+---
+
+# If Windows is unable to find the program, you might need to close and reopen the command prompt window to refresh the path
