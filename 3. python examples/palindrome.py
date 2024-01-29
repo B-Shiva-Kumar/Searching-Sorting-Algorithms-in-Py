@@ -11,6 +11,7 @@ def isPalindrome():
             print("STOPPED")
             break
 
+        # check palindrome
         if (data == reverseData):
             print("Yes, it is a Palindrome.")
         else:

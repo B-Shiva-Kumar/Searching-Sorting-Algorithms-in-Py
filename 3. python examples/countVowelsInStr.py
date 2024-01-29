@@ -3,14 +3,14 @@
 # Without function
 
 user_input_string = input("Enter a String: ")
-user_input_string = user_input_string.casefold()
+user_input_string = user_input_string.casefold() # convert to smalls if any Caps in the given string
 
 
 # vowels
 vowels = "aeiou"
 
 # initiaize vowelsData
-vowelsData = {}.fromkeys(vowels, 0)
+vowelsData = {}.fromkeys(vowels, 0) # dict with all values as 0
 totalVowelsCount = 0
 
 for character in user_input_string:
